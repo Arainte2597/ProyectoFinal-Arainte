@@ -1,0 +1,170 @@
+
+/*            banner      */
+.banner {
+   background-size: cover;
+   background-position: center;
+   height: 80vh;
+   background-image:url(https://www.semfyc.es/wp-content/uploads/2019/05/BANNER-VINO.jpg);
+}
+.banner-container{
+    text-align:center;
+    padding: 15% 0;
+}
+.banner h1{
+    margin: 0;
+    color: rgb(153, 62, 62);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: 62px;
+    font-weight: bold;
+}
+.banner p{
+    font-size: 30px;
+    color: rgb(153, 62, 62);
+    opacity: 0.7;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.tintos{
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: 62px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/**cards*/
+#busqueda{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#contenedorVino{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.cards{
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.cards > img{
+    width: 90%;
+    height: 250px;
+}
+.cards:hover{
+    box-shadow: 10px 20px 25px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.precioProducto{
+    color: white;
+    font-size: 22px;
+
+}
+h3{
+    color: white;
+}
+.cards button{
+    outline: 0;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px solid black;
+}
+.cards button:hover{
+    opacity: 0.7;
+   
+}
+main {
+   background-image: url(https://static.wixstatic.com/media/f642c5_46ea23c8c6bc487cbca3f6fdca63283c~mv2.jpg/v1/fill/w_980,h_572,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f642c5_46ea23c8c6bc487cbca3f6fdca63283c~mv2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   object-fit: cover;
+}
+.contenedor-lista{
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color: #fff;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+
+}
+.listaProductos{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0a0909;
+    color: #fff;
+    width: 100%;
+}
+.listaTitulo{
+    justify-self: start;
+}
+.listaButton{
+    cursor: pointer;
+}
+.contenedor-lista > .carritoMuestra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+}
+.contenedor-lista > div > img{
+    height: 120px;
+    width: 120px;
+    
+}
+.totalProductos{
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+footer{
+    background-color: black;
+}
+.footer{
+    display: flex;
+    flex-direction: column; 
+}
+.buscanos{
+    text-align: center;
+    margin-top: 1cm;
+}
+
+.textfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    text-align: center;
+}
+.redes {
+    font-size: 3rem;
+    color: white; 
+    display: flex;
+    justify-content:space-around; 
+}
+.insta:hover{
+  color: red;
+}
+footer h2{
+    color: white;
+}

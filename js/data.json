@@ -1,0 +1,140 @@
+[
+    {
+       "id":1,
+       "nombre":"El Enemigo",
+       "precio":1200,
+       "img":"./img/enemigo.jpg"
+    },
+    {
+       "id":2,
+       "nombre":"Salentein",
+       "precio":1800,
+       "img":"./img/salentein.jpg"
+    },
+    {
+       "id":3,
+       "nombre":"Luigi bosca",
+       "precio":2800,
+       "img":"./img/luigi-bosca.jpg"
+    },
+    {
+       "id":4,
+       "nombre":"Catena malbec",
+       "precio":1500,
+       "img":"./img/catena.jpg"
+    },
+    {
+       "id":5,
+       "nombre":"Patridge",
+       "precio":1200,
+       "img":"./img/partridge.jpg"
+    },
+    {
+       "id":6,
+       "nombre":"Catena zapata",
+       "precio":1900,
+       "img":"./img/catena-zapata.jpg"
+    },
+   {
+      "id":7,
+      "nombre":"Viejo Guerrero Malbec",
+      "precio":2200,
+      "img":"./img/viejoguerreromalvec.png"
+   },
+   {
+      "id":8,
+      "nombre":"Viejo Guerrero Cabernet Sauvignon",
+      "precio":3200,
+      "img":"./img/viejoguerrero-cabsev.png"
+   },
+   {
+      "id":9,
+      "nombre":"Viejo Guerrero Blend de Tintas",
+      "precio":4000,
+      "img":"./img/viejoblend.png"
+   },
+   {
+      "id":10,
+      "nombre":"Combo Viejo Guerrero Malbec x6",
+      "precio":12000,
+      "img":"./img/comboviejo.png"
+   },
+   {
+      "id":11,
+      "nombre":"Artista Malbec",
+      "precio":1500,
+      "img":"./img/artistamalvec.png"
+   },
+   {
+      "id":12,
+      "nombre":"Artista Malbec Merlot",
+      "precio":2000,
+      "img":"./img/artistamalbmerlot.png"
+   },
+   {
+      "id":13,
+      "nombre":"Combo Artista Malbec x6",
+      "precio":9000,
+      "img":"./img/comboartista.png"
+   },
+   {
+      "id":14,
+      "nombre":"Quijano Malbec",
+      "precio":2500,
+      "img":"./img/quijanomalbec.png"
+   },
+   {
+      "id":15,
+      "nombre":"Quijano Cabernet Sauvignon",
+      "precio":3100,
+      "img":"./img/quijanocabsau.png"
+   },
+   {
+      "id":16,
+      "nombre":"Combo Quijano Malbec x6",
+      "precio":14000,
+      "img":"./img/comboquijano.png"
+   },
+   {
+      "id":17,
+      "nombre":"Gabrielle Malbec",
+      "precio":2400,
+      "img":"./img/gabriellemalvec.png"
+   },
+   {
+      "id":18,
+      "nombre":"Gabrielle Cabernet Sauvignon",
+      "precio":2800,
+      "img":"./img/gabriellecabsau.png"
+   },
+   {
+      "id":19,
+      "nombre":"Combo Gabrielle Malbec x6",
+      "precio":13800,
+      "img":"./img/combogabi.png"
+   },
+   {
+      "id":20,
+      "nombre":"Gabrielle Torrontes",
+      "precio":4000,
+      "img":"./img/gabrielletorro.png"
+   },
+   {
+      "id":21,
+      "nombre":"Gabrielle Rosado Malbec",
+      "precio":3700,
+      "img":"./img/gabrosmalb.png"
+   },
+   {
+      "id":22,
+      "nombre":"Quijano Rosado Malbec",
+      "precio":4000,
+      "img":"./img/quijanorosamalb.png"
+   },
+   {
+      "id":23,
+      "nombre":"Quijano Blanco Dulce",
+      "precio":3200,
+      "img":"./img/quijanoblanc.png"
+   }
+]
