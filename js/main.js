@@ -210,7 +210,27 @@ const actualizarCarrito = () => {
    
      contenedorLista.append(listaButton);
   
-
+     const comprar = document.createElement("button")
+     comprar.innerText = "Finalizar compra";
+     comprar.className = "btn btn-danger btn-primary-outline-success text-center";
+   
+   
+     comprar.addEventListener("click",() => {
+      carrito.length = 0
+      localStorage.clear()
+      actualizarCarrito()
+      Swal.fire({
+        icon: 'success',
+        title: 'Compra Exitosa',
+        showConfirmButton: false,
+        timer: 1500
+      })
+      
+          contenedorLista.style.display = "none"
+          
+     });
+   
+     contenedorLista.append(comprar);
 
 
 }
